@@ -1,0 +1,59 @@
+.hide {
+	display: none;
+}
+
+.bg-popup {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	padding-top: 5%;
+}
+
+.o-wrap-popup {
+	width: 80%;
+	max-width: 540px;
+	height: 90%;
+	overflow-x: scroll;
+}
+
+.o-wrap-popup.demo {
+	max-width: 80%;
+}
+
+.owp-contents .btn-close-bk a {
+	background-size: auto;
+}
+
+@media all and (min-width:881px) { 
+	.w-header.fixed .logo a {background: url(../images/moji-logo4.png) 0 0 no-repeat;}
+	.w-header.wh-sub-header .logo a {background: url(../images/moji-logo4.png) 0 0 no-repeat;}
+}
+
+.price-opt {
+	display: none;
+}
+
+.price-opt.on {
+	display: inline-block;
+}
+
+.video-container {
+	margin-top: 180px;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
